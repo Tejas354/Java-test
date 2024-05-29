@@ -1,7 +1,17 @@
-<dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-core</artifactId>
-    <version>2.17.0</version>
-</dependency>
+<dependencies>
+    <!-- Other dependencies... -->
 
+    <!-- Log4j API -->
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-api</artifactId>
+        <version>2.17.0</version>
+    </dependency>
 
+    <!-- Log4j implementation -->
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-core</artifactId>
+        <version>2.17.0</version>
+    </dependency>
+</dependencies>
